@@ -1,13 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Montserrat', sans-serif;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.title {
+  margin: 30px auto;
+  width: 60%;
+  text-align: center;
+}
+
+.title h1 {
+  margin: auto;
+  font-size: 40px;
+}
+
+.title h2 {
+  margin: auto;
+  font-size: 30px;
+}
+
+.footer {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  border-top: 1px solid rgba(0,0,0, 0.2);
+  overflow: auto;
+}
+
+.footer-text {
+  text-align: left;
+}
+
+.event-form {
+  margin: 20px auto;
+  width: 60%;
 }
